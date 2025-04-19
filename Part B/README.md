@@ -27,7 +27,7 @@ This approach was less effective.
 - Logged and compared validation accuracies across all strategies.
 
 # To run train.py file:
-python train_transfer.py \
+python da6401_a_2_part_b_train.py \
   --data_dir ./path_to_data \
   --model_name resnet \
   --freeze_percent 0.5 \
