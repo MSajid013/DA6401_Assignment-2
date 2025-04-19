@@ -72,4 +72,4 @@ After training, I tested the best model on the test set.
 The final accuracy 35.60% was reported and provided sample images using the test data.
 
 # To run the train.py file:
-python trainA.py --data_dir ./dataset --epochs 10 --apply_augmentation Yes --activation_function gelu --dropout_rate 0.3
+python da6401_a_2_part_a_train.py --data_dir ./dataset --epochs 10 --apply_augmentation Yes --activation_function gelu --dropout_rate 0.3
