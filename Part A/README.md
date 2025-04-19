@@ -66,7 +66,7 @@ Dense Layer: 128 neurons
 
 Data Augmentation: No
 
-🧪 Final Evaluation
+# Final Evaluation
 After training, I tested the best model on the test set.
 
 The final accuracy 35.60% was reported and provided sample images using the test data.
