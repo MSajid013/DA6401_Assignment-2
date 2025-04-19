@@ -18,7 +18,7 @@ This approach was less effective.
 
  Result Analysis:
 
-- Freezing 70–90% of the layers gave good validation accuracy.
+- Freezing 75% of the layers gave good validation accuracy.
 
 - Training only the last layer also gave strong performance.
 
@@ -26,4 +26,11 @@ This approach was less effective.
 
 - Logged and compared validation accuracies across all strategies.
 
-
+# To run train.py file:
+python train_transfer.py \
+  --data_dir ./path_to_data \
+  --model_name resnet \
+  --freeze_percent 0.5 \
+  --freeze_all_except_last_layer No \
+  --epochs 5 \
+  --apply_augmentation Yes
